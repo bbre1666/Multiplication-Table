@@ -16,7 +16,6 @@ Module Program
         For col = 1 To size
             For row = 1 To size
                 Console.Write(Str(col * row).PadLeft(8))
-
             Next
             Console.WriteLine()
         Next
